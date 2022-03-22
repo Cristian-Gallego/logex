@@ -1,0 +1,24 @@
+.userItemContainer {
+  padding: 20px;
+
+  .userItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  hr {
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  hr {
+    display: none;
+  }
+}

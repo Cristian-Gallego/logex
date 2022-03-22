@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+// Variables
+@import "./app/styles/_variables";
+
+// Base layout
+@import "./app/styles/base";
+
+// Components
+@import "./app/styles/components/button";
+
+// Layout
+@import "./app/styles/layout/header";
+@import "./app/styles/layout/login";
+@import "./app/styles/layout/notFound";
+@import "./app/styles/layout/users";
+@import "./app/styles/layout/userItem";
+@import "./app/styles/layout/userDetails";

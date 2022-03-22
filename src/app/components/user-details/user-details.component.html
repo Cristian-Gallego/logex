@@ -1,0 +1,26 @@
+<div class="userDetailsContainer">
+  <div *ngIf="user.data">
+    <h2>User Details</h2>
+    <div class="userInfo">
+      <img src="{{ user.data.avatar }}" alt="{{ user.data.first_name }}" />
+
+      <div class="detailsInfo">
+        <div class="userSection">
+          <h3>Email</h3>
+          <p>{{ user.data.email }}</p>
+        </div>
+        <div class="userSection">
+          <h3>Name</h3>
+          <p>{{ user.data.first_name }}</p>
+        </div>
+        <div class="userSection">
+          <h3>Last Name</h3>
+          <p>{{ user.data.last_name }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="link">
+      <a routerLink="/users/" class="btn-md">Go back</a>
+    </div>
+  </div>
+</div>

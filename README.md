@@ -1,27 +1,42 @@
 # Logex
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+## Summary
 
-## Development server
+Logex is a small frontend application that retrieves data from [Reqres.in](https://reqres.in/) and displays it to the user. It also includes login authentication as well as guarded routes via the use of tokens.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project was made with Angular 13.3, Typescript and Sass (SCSS).
 
-## Code scaffolding
+## Getting started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To see a live demo of the project please visit the following link:
 
-## Build
+https://cristian-gallego.github.io/login
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To access the user's list please introduce the following credentials in the login form:
 
-## Running unit tests
+User: `eve.holt@reqres.in`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Password: `cityslicka`
 
-## Running end-to-end tests
+## Features
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Login authentication
+- Protected routes with the use of guards
+- Created on the latest stable version of Angular following current best practices
+- Robust interface made with Typescript as well as modern ES6+ techniques
+- Styling done entirely by hand with the use of SCSS
+- Use of modern HTML5 techniques for better accessibility and SEO
+- Entirely accessible as to comply with WCAG 2.1 AA standards
+- Fully responsible both in mobile and desktop
+- No use of external libraries to avoid unnecessary dependencies and file size
+- Clean code following enterprise-like architectures for easy scalability and modularity
+- Successfully passed all default Karma / Jasmine unit tests
 
-## Further help
+## Compatibility list
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Logex was manually tested on the following clients:
+
+- Google Chrome 99.0
+- Mozilla Firefox 98.0
+- Microsoft Edge 99.0
+- Opera 84.0
