@@ -10,7 +10,7 @@ This project was made with Angular 13.3, Typescript and Sass (SCSS).
 
 To see a live demo of the project please visit the following link:
 
-https://cristian-gallego.github.io/login
+https://cristian-gallego.github.io
 
 To access the user's list please introduce the following credentials in the login form:
 
